@@ -1,9 +1,9 @@
 to run:
 
 go to src/app/page.tsx
-npm run dev
+run terminal, then type these:
 
-if error occurs portraying "next", try:
+npm run dev
 npm install next
 then run again
 
