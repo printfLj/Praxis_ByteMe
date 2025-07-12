@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container flex h-14 items-center">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg font-headline">
             <GraduationCap className="h-6 w-6 text-primary" />
-            SkillHarbor
+            Praxis
           </Link>
           <nav className="ml-auto flex items-center gap-4">
             <Button variant="ghost" asChild>
@@ -35,7 +35,7 @@ export default function Home() {
                     Verify Your Skills. Unlock Your Future.
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    SkillHarbor is a Web3 platform that connects talented students with innovative companies through verifiable skill badges and smart contract-based jobs.
+                    Praxis is a Web3 platform that connects talented students with innovative companies through verifiable skill badges and smart contract-based jobs.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">Key Features</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">How SkillHarbor Works</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">How Praxis Works</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Our platform provides a seamless experience for both students and employers, from skill verification to project completion.
                 </p>
@@ -79,7 +79,7 @@ export default function Home() {
                   <CardTitle className="font-headline">Take Assessments</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-sm text-muted-foreground">
-                  Prove your expertise by completing skill-based assessments designed by industry experts.
+                  Prove your expertise by completing skill-based assessments.
                 </CardContent>
               </Card>
               <Card>
@@ -101,7 +101,7 @@ export default function Home() {
                   <CardTitle className="font-headline">Find Job Contracts</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-sm text-muted-foreground">
-                  Get matched with paid projects from top companies that align with your verified skills.
+                  Get matched with paid projects from companies that align with your verified skills.
                 </CardContent>
               </Card>
               <Card>
@@ -121,7 +121,7 @@ export default function Home() {
       </main>
 
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 SkillHarbor. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2025 Praxis. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4">
             Terms of Service

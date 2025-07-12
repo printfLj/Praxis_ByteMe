@@ -82,7 +82,7 @@ export function StudentDashboard() {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">#12</div>
-            <p className="text-xs text-muted-foreground">Top 10% of students</p>
+            <p className="text-xs text-muted-foreground">To 50%</p>
           </CardContent>
         </Card>
       </div>

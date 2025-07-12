@@ -1,4 +1,5 @@
 
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -13,9 +14,9 @@ import { useToast } from "../../../hooks/use-toast";
 import Link from "next/link";
 
 const earnedBadges = [
-  { id: 1, name: 'Junior Developer', icon: <Code className="w-10 h-10" />, date: '2024-05-20' },
-  { id: 2, name: 'Technical Writing', icon: <PenTool className="w-10 h-10" />, date: '2024-06-11' },
-  { id: 3, name: 'React Fundamentals', icon: <Star className="w-10 h-10" />, date: '2024-07-02' },
+  { id: 1, name: 'Junior Developer', icon: <Code className="w-10 h-10" />, date: '2024-05-20', score: 86 },
+  { id: 2, name: 'Technical Writing', icon: <PenTool className="w-10 h-10" />, date: '2024-06-11', score: 92 },
+  { id: 3, name: 'React Fundamentals', icon: <Star className="w-10 h-10" />, date: '2024-07-02', score: 95 },
 ];
 
 export default function ProfilePage() {
@@ -74,7 +75,7 @@ export default function ProfilePage() {
           <Card>
             <CardHeader className="items-center text-center">
               <Avatar className="w-24 h-24 mb-4">
-                <AvatarImage src="https://placehold.co/100x100.png" />
+                <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="person student" />
                 <AvatarFallback>SN</AvatarFallback>
               </Avatar>
               <CardTitle className="font-headline text-2xl">Student Name</CardTitle>
@@ -117,6 +118,7 @@ export default function ProfilePage() {
                       </div>
                       <p className="font-semibold">{badge.name}</p>
                       <p className="text-xs text-muted-foreground">Earned: {badge.date}</p>
+                      <p className="text-sm font-bold text-primary mt-2">{badge.score}%</p>
                     </div>
                   ))}
                 </div>

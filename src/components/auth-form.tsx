@@ -71,7 +71,7 @@ export function AuthForm({ type }: AuthFormProps) {
       <div className="grid gap-2 text-center">
         <h1 className="text-3xl font-bold font-headline">{isSignup ? "Create an account" : "Welcome back"}</h1>
         <p className="text-balance text-muted-foreground">
-          Enter your details below to {isSignup ? "join" : "access"} SkillHarbor
+          Enter your details below to {isSignup ? "join" : "access"} Praxis
         </p>
       </div>
       <Form {...form}>
