@@ -1,4 +1,4 @@
-to run:
+how to run:
 
 go to src/app/page.tsx
 run terminal, then type these:
